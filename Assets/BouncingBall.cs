@@ -18,6 +18,7 @@ public class BouncingBall : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        
+        Renderer rend = GetComponent<Renderer>();
+
     }
 }
